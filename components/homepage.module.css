@@ -1,0 +1,38 @@
+.RendiaAchievements {
+  list-style-type: disc;
+      padding-left: 20px;
+}
+
+.RendiaAchievements li:nth-child(3) {
+  list-style-type: none;
+}
+
+.nestedList > li {
+  padding: 5px !important;
+  list-style-type: circle;
+}
+
+.nestedList li:nth-child(3) {
+  padding: 5px !important;
+  list-style-type: circle;
+}
+
+.spacingDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 767px) {
+  .imageDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imageDiv img {
+    width: 100px;
+    padding-bottom: 20px;
+  }
+}

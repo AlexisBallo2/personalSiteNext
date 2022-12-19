@@ -1,0 +1,65 @@
+.cardMain {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 50vw;
+  color: black;
+  space-between: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .cardMain {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 80vw;
+    color: black;
+  }
+}
+
+.title {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.image {
+  display: block;
+  width: 50vw;
+}
+
+.description {
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+}
+
+.descHead {
+  font-weight: 800;
+}
+
+.skillsHead {
+  text-decoration: underline;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkall {
+  margin: 50px;
+}
+
+.linkall:hover {
+}
