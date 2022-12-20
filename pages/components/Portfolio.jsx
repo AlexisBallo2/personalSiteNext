@@ -1,20 +1,18 @@
-import Nav from "../Nav";
-import Helmet from "react-helmet";
 import React from "react";
 import Card from "./Card";
-import "./portfolio.Module.css";
-import webpageImg from "./../images/portfolio/websiteImg.png";
-import textleMappingImg from "./../images/portfolio/textileMappingImg.png";
-import middHacksImg from "./../images/portfolio/middHacks.png";
-import paymentApp from "./../images/portfolio/paymentApp.png";
-import bulletpitch from "./../images/portfolio/bulletpitch.png";
-import shhmint from "./../images/portfolio/shhmint.png";
+import styles from "./portfolio.module.css";
+import webpageImg from "../../public/images/portfolio/websiteImg.png";
+import textleMappingImg from "../../public/images/portfolio/textileMappingImg.png";
+import middHacksImg from "../../public/images/portfolio/middHacks.png";
+import paymentApp from "../../public/images/portfolio/paymentApp.png";
+import bulletpitch from "../../public/images/portfolio/bulletpitch.png";
+import shhmint from "../../public/images/portfolio/shhmint.png";
 //import Canvas from "./Canvas";
 
 export default function Portfolio() {
   return (
     <div>
-      <div className="cardHolder">
+      <div className= {styles.cardHolder}>
         <Card
           link="https://bulletpitch.xyz"
           name="bulletpitch Website"

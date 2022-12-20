@@ -3,12 +3,12 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Helmet } from "react-helmet";
 //import useOnScreen from "../hooks/useOnScreen";
 import styles from "./homepage.module.css";
-import bulletpitch from "../public/images/resumeImages/bulletpitchLogo.png";
-import mdSci from "../public/images/resumeImages/Maryland_Science_Center_Logo.png";
-import pulseImage from "../public/images/resumeImages/pulseTransport.png";
-import rendia from "../public/images/resumeImages/R-Logo.png";
-import dpw from "../public/images/resumeImages/dpw.png";
-import codeintheschools from "../public/images/resumeImages/codeintheschools.png";
+// import bulletpitch from "public/images/resumeImages/bulletpitchLogo.png";
+// import mdSci from "../public/images/resumeImages/Maryland_Science_Center_Logo.png";
+// import pulseImage from "../public/images/resumeImages/pulseTransport.png";
+// import rendia from "../public/images/resumeImages/R-Logo.png";
+// import dpw from "../public/images/resumeImages/dpw.png";
+// import codeintheschools from "../public/images/resumeImages/codeintheschools.png";
 import Nav from "./Nav";
 
 function HomePage() {
@@ -166,7 +166,7 @@ function HomePage() {
                 {/* <div className={styles.imageDiv}> */}
                 <div className="two columns">
                   <div className={styles.imageDiv}>
-                    <img src={bulletpitch}></img>
+                    <img src= "../../public/images/resumeImages/bulletpitchLogo.png"></img>
                   </div>
                 </div>
                 <div className="ten columns" style={{ padding: "0px" }}>
@@ -226,7 +226,6 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="twelve columns">
-                  <p>
                     Worked with the engineering team to develop their patient
                     education product.
                     <div>
@@ -276,7 +275,6 @@ function HomePage() {
                         </li>
                       </ul>
                     </div>
-                  </p>
                 </div>
               </div>
             </div>
