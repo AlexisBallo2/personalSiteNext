@@ -14,9 +14,9 @@ export default function Card(props) {
 			  <div className={styles.Description}>{props.description}</div>
 			  <div>
 				  <div className={styles.skillsHead}> Skills used/learned: </div>
-				  {skills.map((title) => {
+				  {skills != undefined ? skills.map((title) => {
 					  return <div key={title}>{title}</div>;
-				  })}
+				  }): <div> none </div>}
 				  </div>
 			  </div>
 		  </a>

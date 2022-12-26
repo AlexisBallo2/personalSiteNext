@@ -24,6 +24,7 @@ function HomePage() {
                 <a
                   href="https://www.facebook.com/profile.php?id=100010979888714"
                   target="_blank"
+	  				rel="noreferrer"
                 >
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -32,6 +33,7 @@ function HomePage() {
                 <a
                   href="https://www.linkedin.com/in/alexis-ballo-6471191a7/"
                   target="_blank"
+	  				rel="noreferrer"
                 >
                   <i className="fa fa-linkedin"></i>
                 </a>
@@ -40,17 +42,24 @@ function HomePage() {
                 <a
                   href="https://www.instagram.com/alexisballo/"
                   target="_blank"
+	  				rel="noreferrer"
                 >
                   <i className="fa fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/AlexisBallo2" target="_blank">
+                <a href="https://github.com/AlexisBallo2" 
+	  			target="_blank"
+	  			rel="noreferrer"
+	  			>
                   <i className="fa fa-github"></i>
                 </a>
               </li>
               <li>
-                <a href="mailto:aballo@middlebury.edu" target="_blank">
+                <a href="mailto:aballo@middlebury.edu" 
+	  			target="_blank"	
+	  			rel="noreferrer"
+	  			>
                   <i className="fa fa-envelope"></i>
                 </a>
               </li>
@@ -119,7 +128,7 @@ function HomePage() {
                 <h3>Johns Hopkins Summer Class</h3>
                 <p className="info">
                   {" "}
-                  Recieve grade "A" in summer biomedical engineering course
+                  Recieve grade &quot;A&quot; in summer biomedical engineering course
                   <span>&bull;</span> <em className="date">April 2020</em>
                 </p>
 
@@ -170,7 +179,7 @@ function HomePage() {
                       Developed sophisticated website for hosting and delivering
                       content to interested individuals
                     </li>
-                    <li>Used Google Search Console to build company's SEO</li>
+                    <li>Used Google Search Console to build company&apos;s SEO</li>
                     <li>
                       Integrated components of multiple websites into one sleek
                       site
@@ -449,7 +458,7 @@ function HomePage() {
               <span className="lead">
                 {" "}
                 Email at{" "}
-                <a target="_blank" href="mailto:aballo@middlebury.edu">
+                <a target="_blank" href="mailto:aballo@middlebury.edu" rel = "noreferrer">
                   aballo@middlebury.edu
                 </a>
               </span>
@@ -466,6 +475,7 @@ function HomePage() {
               <li>
                 <a
                   href="https://www.facebook.com/profile.php?id=100010979888714"
+					rel = "noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-facebook"></i>
@@ -474,6 +484,7 @@ function HomePage() {
               <li>
                 <a
                   href="https://www.linkedin.com/in/alexis-ballo-6471191a7/"
+					rel = "noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-linkedin"></i>
@@ -482,18 +493,19 @@ function HomePage() {
               <li>
                 <a
                   href="https://www.instagram.com/alexisballo/"
+					rel = "noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/AlexisBallo2" target="_blank">
+                <a href="https://github.com/AlexisBallo2" target="_blank" rel = "noreferrer">
                   <i className="fa fa-github"></i>
                 </a>
               </li>
               <li>
-                <a href="mailto:aballo@middlebury.edu" target="_blank">
+                <a href="mailto:aballo@middlebury.edu" target="_blank" rel = "noreferrer">
                   <i className="fa fa-envelope"></i>
                 </a>
               </li>

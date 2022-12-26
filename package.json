@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+	"build-local": "next build && scp -r ./ root@143.244.145.167://var/www/alexisballo.com/html/"
   },
   "dependencies": {
     "anchor-link": "^3.5.1",
