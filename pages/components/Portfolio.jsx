@@ -26,7 +26,7 @@ export default function Portfolio() {
           name="bulletpitch Website"
           description="Participated in crossmint hackathon competition. Partner and I designed a shopify plugin for NFT minting. Finished in 2nd place. "
           image={shhmint}
-          descHead="Crossmint Hackathon Project: shhmint"
+          descHead="Crossmint Hackathon Project: shhmint (second place)"
           skills={[
             "postgres",
             "sql",
@@ -67,7 +67,7 @@ export default function Portfolio() {
           name="Middlebury Hackathon"
           description=" Middlebury Hackathon project where students can rent and borrow items from other students (only 24 hours on development time)  "
           image={middHacksImg}
-          descHead="Middlebury Hackathon Project: Midd XChange"
+          descHead="Middlebury Hackathon Project: Midd XChange (winning project)"
           skills={["React.js", "Html, Css, Js", "sqlite3"]}
         />
       </div>

@@ -6,7 +6,6 @@
   align-items: center;
   border-radius: 5px;
   width: 50vw;
-  color: black;
   space-between: 10px;
 }
 
@@ -32,13 +31,14 @@
 
 .image {
   display: block;
-  width: 50vw;
 }
 
 .description {
   width: 80%;
   text-align: center;
   padding: 10px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .descHead {
@@ -49,8 +49,8 @@
   text-decoration: underline;
 }
 
-.linkall {
-  margin: 50px;
+.linkAll {
+  color: black !important;
 }
 
 .linkall:hover {
