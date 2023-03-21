@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "./Card";
 import styles from "./portfolio.module.css";
-import webpageImg from "../../public/images/portfolio/websiteImg.png";
-import textleMappingImg from "../../public/images/portfolio/textileMappingImg.png";
-import middHacksImg from "../../public/images/portfolio/middHacks.png";
-import paymentApp from "../../public/images/portfolio/paymentApp.png";
-import bulletpitch from "../../public/images/portfolio/bulletpitch.png";
-import shhmint from "../../public/images/portfolio/shhmint.png";
+import webpageImg from "../public/images/portfolio/websiteImg.png";
+import textleMappingImg from "../public/images/portfolio/textileMappingImg.png";
+import middHacksImg from "../public/images/portfolio/middHacks.png";
+import paymentApp from "../public/images/portfolio/paymentApp.png";
+import bulletpitch from "../public/images/portfolio/bulletpitch.png";
+import shhmint from "../public/images/portfolio/shhmint.png";
 //import Canvas from "./Canvas";
 
 export default function Portfolio() {
