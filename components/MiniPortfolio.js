@@ -59,7 +59,7 @@ export default function MiniPortfolio() {
 		return (
 			<div>
 				<p className="indent-10 m-0">
-					This interface dashboard was a project created in &quot;Data Science AcrossDiciplines&quot;, my winter term class at Middlebury college. Our group wanted to show where different textiles were being traded, the amount that was being traded, and various details about the textiles.  
+					This interface dashboard was a project created in &quot;Data Science Across Diciplines&quot;, my winter term class at Middlebury college. Our group wanted to show where different textiles were being traded, the amount that was being traded, and various details about the textiles.  
 				</p>
 
 				<p className="indent-10 m-0">
