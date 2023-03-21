@@ -29,7 +29,7 @@ export default function MiniPortfolio() {
 		return (
 			<div>
 				<p className="indent-10 m-0">
-				 Shhmint was the crossmint 2022 hackathon finisher. Our goal was to allow shopify users to mint NFT's along with their physical goods. This could allow shopify buyers to obtain tokens/NFTs associated with their purchase, potentually increasing proof purchase. Using the shopify  
+				 Shhmint was the crossmint 2022 hackathon finisher. Our goal was to allow shopify users to mint NFTs along with their physical goods. This could allow shopify buyers to obtain tokens/NFTs associated with their purchase, potentually increasing proof purchase. Using the shopify  
 				</p>
 
 				<p className="indent-10 m-0">
@@ -59,7 +59,7 @@ export default function MiniPortfolio() {
 		return (
 			<div>
 				<p className="indent-10 m-0">
-					This interface dashboard was a project created in "Data Science AcrossDiciplines", my winter term class at Middlebury college. Our group wanted to show where different textiles were being traded, the amount that was being traded, and various details about the textiles.  
+					This interface dashboard was a project created in &quot;Data Science AcrossDiciplines&quot;, my winter term class at Middlebury college. Our group wanted to show where different textiles were being traded, the amount that was being traded, and various details about the textiles.  
 				</p>
 
 				<p className="indent-10 m-0">
