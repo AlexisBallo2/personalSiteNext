@@ -29,15 +29,15 @@ export default function MiniCard({ image, title, Content, onClick }) {
 							&times;
 						</a>
 						<h2 className="text-center"> {title} </h2>
-						<div className="flex flex-row h-[70%] flex-wrap justify-center px-4 mt-10">
-							<div className="flex flex-col items-center  w-[200px] h-full">
+						<div className="flex flex-row flex-wrap justify-evenly px-4 mt-10">
+							<div className="flex flex-col items-center  w-[250px] h-full py-[10px]">
 								<Content /> 	
 							</div>
-							<div className="flex flex-col items-center justify-evenly w-[200px] h-full">
-								<div className="border-[4px] border-black rounded" >  
+							<div className="flex flex-col items-center justify-evenly w-[250px] h-full py-[10px]">
+								<div className="border-[4px] border-black rounded my-[10px]" >  
 									<Image src = {image} alt = {title} width = {600} height = {200}/>
 								</div>
-								<div className="border-[4px] border-black rounded" >  
+								<div className="border-[4px] border-black rounded my-[10px]" >  
 									<Image src = {image} alt = {title} width = {600} height = {200}/>
 								</div>
 								<div>
