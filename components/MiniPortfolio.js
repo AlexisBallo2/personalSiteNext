@@ -78,7 +78,7 @@ export default function MiniPortfolio() {
 		return (
 			<div>
 				<p className="indent-10 m-0">
-					As part of Middlebury's winter term class "Deep Learning", my group implemented a BERT wordembedding model. From our word embedding model, we compiled a matrix of word embeddings and made our own version of the popular "semantle" word guessing game. The code to the jupyter notebook and web-app is linked from the github repo.
+					As part of Middlebury&lsquo;s winter term class &ldquo;Deep Learning&ldquo;, my group implemented a BERT wordembedding model. From our word embedding model, we compiled a matrix of word embeddings and made our own version of the popular &ldquo;semantle&ldquo; word guessing game. The code to the jupyter notebook and web-app is linked from the github repo.
 				</p>
 
 				<p className="indent-10 m-0">
