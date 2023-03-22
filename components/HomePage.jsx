@@ -79,7 +79,7 @@ function HomePage() {
 			<section id="portfolio" className="">
 				<div className="row education">
 					<div className="three columns header-col">
-						<h1>
+						<h1 className="">
 							<span>Portfolio</span>
 						</h1>
 					</div>

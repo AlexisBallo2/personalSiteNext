@@ -91,7 +91,7 @@ export default function MiniPortfolio() {
 	
 	return (
 		<>
-			<div className="flex flex-row flex-wrap">
+			<div className="flex flex-row flex-wrap justify-center">
 				<MiniCard 
 					imageList={[bulletpitch,bulletpitch2,bulletpitch3]} 
 					headerImage = {bulletpitch}

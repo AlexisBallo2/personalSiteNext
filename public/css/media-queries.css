@@ -60,6 +60,7 @@
    /* Resume Section
    ------------------------------------------------------------------- */
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #portfolio h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
 
    /* Testimonials Section
@@ -223,6 +224,17 @@
    }
    #about .main-col { padding-right: 30px; }
 
+
+   /* Resume Section
+   --------------------------------------------------------------------- */
+   #portfolio .header-col {
+      padding-top: 0;
+      margin-bottom: 48px;
+      text-align: center;
+   }
+   #portfilio h1 { letter-spacing: 3px; }
+   #portfolio .main-col { padding-right: 30px; }
+   #portfolio h3, #resume .info { text-align: center; }
 
    /* Resume Section
    --------------------------------------------------------------------- */

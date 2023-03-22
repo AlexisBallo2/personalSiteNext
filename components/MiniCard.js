@@ -19,7 +19,7 @@ export default function MiniCard({ headerImage, imageList, title, Content, url, 
 		
 	return (
 		<div
-			className=" w-[150px] border-black align-middle transform transition duration-500 hover:scale-110  text-center rounded-lg bg-black m-[10px]"
+			className=" w-[200px] border-black align-middle transform transition duration-500 hover:scale-110  text-center rounded-lg bg-black m-[20px]"
 			onClick={openModal}
 		>
 
