@@ -41,7 +41,7 @@ function Nav() {
 	  		</Link>
         </li>
         <li className="navoptions">
-          <Link href="/portfolio">portfolio</Link>
+          <Link href="/#portfolio">portfolio</Link>
         </li>
       </ul>
     </nav>
