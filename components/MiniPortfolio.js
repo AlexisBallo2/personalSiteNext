@@ -1,9 +1,13 @@
-
 import MiniCard from "./MiniCard"
 import shhmint from "../public/images/portfolio/shhmint.png"
+import shhmint2 from "../public/images/portfolio/shhmint2.png"
 import middHacks from "../public/images/portfolio/middHacks.png"
 import bulletpitch from "../public/images/portfolio/bulletpitch.png"
+import bulletpitch2 from "../public/images/portfolio/bulletpitch2.png"
+import bulletpitch3 from "../public/images/portfolio/bulletpitch3.png"
 import textileMapping from "../public/images/portfolio/textileMappingImg.png"
+import textileMapping2 from "../public/images/portfolio/textileMappingImg2.png"
+import semantle from "../public/images/portfolio/semantle.png"
 export default function MiniPortfolio() {
 
 	let bpContent = () => {
@@ -68,15 +72,61 @@ export default function MiniPortfolio() {
 			</div>
 		)
 	}
+	
+	let dlContent = () => {
+
+		return (
+			<div>
+				<p className="indent-10 m-0">
+					As part of Middlebury's winter term class "Deep Learning", my group implemented a BERT wordembedding model. From our word embedding model, we compiled a matrix of word embeddings and made our own version of the popular "semantle" word guessing game. The code to the jupyter notebook and web-app is linked from the github repo.
+				</p>
+
+				<p className="indent-10 m-0">
+				Used technologies include python, TensorFlow, Next.js
+				</p>	
+			</div>
+		)
+	}
 
 	
 	return (
 		<>
 			<div className="flex flex-row flex-wrap">
-				<MiniCard image={bulletpitch} title = "bulletpitch" Content={bpContent} />
-				<MiniCard image={shhmint} title = "shhmint" Content = {shhmintContent} />
-				<MiniCard image={middHacks} title = "MiddXChange" Content = {middXContent} /> 
-				<MiniCard image={textileMapping} title="Textile Mapping" Content = {textileContent}/>
+				<MiniCard 
+					imageList={[bulletpitch,bulletpitch2,bulletpitch3]} 
+					headerImage = {bulletpitch}
+					title = "bulletpitch" 
+					Content={bpContent} 
+					url = "https://www.bulletpitch.xyz?utm_source=alexis"
+				/>
+				<MiniCard 
+					imageList = {[shhmint,shhmint2]} 
+					headerImage = {shhmint}
+					title = "shhmint" 
+					Content = {shhmintContent}
+					url = "https://www.shhmint.com/" 
+				/>
+				<MiniCard 
+					imageList = {[middHacks]} 
+					headerImage = {middHacks}
+					title = "MiddXChange" 
+					Content = {middXContent} 
+					url = "https://github.com/AlexisBallo2/Hackathon2022" 
+				/> 
+				<MiniCard 
+					imageList={[semantle]} 
+					headerImage = {semantle}
+					title = "BERT deep learning" 
+					Content = {dlContent} 
+					url = "https://github.com/AlexisBallo2/semantleClone" 
+				/> 
+				<MiniCard 
+					imageList={[textileMapping2, textileMapping]} 
+					headerImage = {textileMapping2}
+					title="Textile Mapping" 
+					Content = {textileContent}
+					url = "https://alexisballo.shinyapps.io/finalProject/" 
+				/>
 
 			</div>
 		</>

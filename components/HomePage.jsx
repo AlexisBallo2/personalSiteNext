@@ -145,7 +145,7 @@ function HomePage() {
 								<h3>Johns Hopkins Summer Class</h3>
 								<p className="info">
 									{" "}
-									Recieve grade &quot;A&quot; in summer biomedical engineering course
+									Received grade &quot;A&quot; in summer biomedical engineering course
 									<span>&bull;</span> <em className="date">April 2020</em>
 								</p>
 
