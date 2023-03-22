@@ -74,23 +74,20 @@ function HomePage() {
 					</AnchorLink>
 				</p>
 			</header>
-			<section id="resume">
+
+
+			<section id="portfolio" className="">
 				<div className="row education">
 					<div className="three columns header-col">
 						<h1>
 							<span>Portfolio</span>
 						</h1>
 					</div>
-
-
 					<MiniPortfolio />
-				</div>
+					</div>
+				</section>
 
-
-
-
-
-
+			<section id="resume">
 				<div className="row education">
 					<div className="three columns header-col">
 						<h1>
