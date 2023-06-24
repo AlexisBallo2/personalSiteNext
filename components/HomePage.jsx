@@ -2,7 +2,7 @@ import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 //import useOnScreen from "../hooks/useOnScreen";
 import styles from "./homepage.module.css";
-import bulletpitch from "../public/images/resumeImages/bulletpitchLogo.png";
+import bulletpitch from "../public/images/resumeImages/bulletpitchIcon.ico";
 import mdSci from "../public/images/resumeImages/Maryland_Science_Center_Logo.png";
 import pulseImage from "../public/images/resumeImages/pulseTransport.png";
 import rendia from "../public/images/resumeImages/R-Logo.png";
@@ -175,9 +175,9 @@ function HomePage() {
 								</div>
 								<div className="ten columns" style={{ padding: "0px" }}>
 									<div className={styles.spacingDiv}>
-										<h3>bulletpitch</h3>
+										<h3>Bulletpitch</h3>
 										<p className="info">
-											Head of Operations <span>&bull;</span>{" "}
+											Chief Technology Officer<span>&bull;</span>{" "}
 											<em className="date">July 2022 - Present</em>
 										</p>
 									</div>
@@ -191,9 +191,15 @@ function HomePage() {
 									<ul className={styles.RendiaAchievements}>
 										<li>
 											Developed sophisticated website for hosting and delivering
-											content to interested individuals
+											newsletter content 
 										</li>
-										<li>Used Google Search Console to build company&apos;s SEO</li>
+											<ul className={styles.nestedList}>
+											<li>Followed Agile development practices</li>
+											<li>Implemented customized analytics tracking and GTM configuration</li>
+										</ul>
+										<li>
+											Used Google Search Console to build company&apos;s SEO
+										</li>
 										<li>
 											Integrated components of multiple websites into one sleek
 											site
@@ -203,8 +209,8 @@ function HomePage() {
 									<h5>Technologies used</h5>
 									<ul className={styles.RendiaAchievements}>
 										<li>
-											Python, HTML/CSS/JS, Wordpress, Google Search Console,
-											Google Analytics
+											Python, HTML/CSS/JS, NextJs, Google Search Console,
+											Google Analytics, AWS (S3, RDS, VPS)
 										</li>
 									</ul>
 								</div>
@@ -240,7 +246,6 @@ function HomePage() {
 												Developed a proof of concept HLS video streaming
 												authorization protocol
 											</li>
-											<li>
 												<ul className={styles.nestedList}>
 													<li>
 														Studied current authorization protocol involving mp4
@@ -262,7 +267,6 @@ function HomePage() {
 														</a>
 													</li>
 												</ul>
-											</li>
 											<li>
 												Presented a lunch and learn talk about the rubix cube
 												with <a href="/file/cube.pdf">homemade materials</a>
