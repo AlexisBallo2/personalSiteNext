@@ -7,6 +7,7 @@ import mdSci from "../public/images/resumeImages/Maryland_Science_Center_Logo.pn
 import pulseImage from "../public/images/resumeImages/pulseTransport.png";
 import rendia from "../public/images/resumeImages/R-Logo.png";
 import dpw from "../public/images/resumeImages/dpw.png";
+import parsons from "../public/images/resumeImages/parsonsIcon.jpeg";
 import codeintheschools from "../public/images/resumeImages/codeintheschools.png";
 import Nav from "./Nav";
 import MiniPortfolio from "./MiniPortfolio";
@@ -217,6 +218,38 @@ function HomePage() {
 							</div>
 						</div>
 
+						{/* parsons */}
+
+						<div className="row item" style={{ padding: "20px 0 20px 0" }}>
+							<div className="twelve columns">
+								{/* <div className={styles.imageDiv}> */}
+								<div className="two columns">
+									<div className={styles.imageDiv}>
+										<Image src={parsons} width={50} />
+									</div>
+								</div>
+								<div className="ten columns" style={{ padding: "0px" }}>
+									<div className={styles.spacingDiv}>
+										<h3>Parsons</h3>
+										<p className="info">
+											Software Engineering Intern<span>&bull;</span>{" "}
+											<em className="date">June 2022 - Present</em>
+										</p>
+									</div>
+								</div>
+								<div className="twelve columns">
+									<p>
+										Developed web-based resource tracking tool for multi-member, interdisciplinary teams, incorporating SSO and aesthetic design
+									</p>
+									<h5>Technologies used</h5>
+									<ul className={styles.RendiaAchievements}>
+										<li>
+											Django, Python, Bootsrap
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
 						{/* rendia */}
 						<div className="row item" style={{ padding: "20px 0 20px 0" }}>
 							<div className="twelve columns">

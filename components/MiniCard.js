@@ -34,7 +34,7 @@ export default function MiniCard({ headerImage, imageList, title, Content, url, 
 			<Popup open={open} closeOnDocumentClick onClose={closeModal}>
 				<div className="fixed top-0 left-0 flex items-center justify-center w-[100vw] h-[100vh]">
 					<div className="w-[90vw] max-w-[700px] h-[70vh] bg-white rounded-lg shadow-[0px_35px_60px_-15px_rgba(0,0,0,0.3)] overflow-scroll ">
-						<a className="relative left-5 top-5 text-[20px]" onClick={closeModal}>
+						<a className="relative cursor-pointer left-5 top-5 text-[20px]" onClick={closeModal}>
 							&times;
 						</a>
 						<h2 className="text-center"> {title} </h2>

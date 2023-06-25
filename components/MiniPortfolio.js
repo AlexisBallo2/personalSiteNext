@@ -95,7 +95,7 @@ export default function MiniPortfolio() {
 				<MiniCard 
 					imageList={[bulletpitch,bulletpitch2,bulletpitch3]} 
 					headerImage = {bulletpitch}
-					title = "bulletpitch" 
+					title = "Bulletpitch" 
 					Content={bpContent} 
 					url = "https://www.bulletpitch.xyz?utm_source=alexis"
 				/>
