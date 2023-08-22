@@ -302,7 +302,7 @@ function HomePage() {
 												</ul>
 											<li>
 												Presented a lunch and learn talk about the rubix cube
-												with <a href="/file/cube.pdf">homemade materials</a>
+												with <a href="/static/cube.pdf">homemade materials</a>
 											</li>
 										</ul>
 										<h5>Technologies used</h5>
