@@ -3,7 +3,7 @@ import Popup from 'reactjs-popup';
 import { useState } from "react"
 import Link from "next/link";
 
-export default function MiniCard({ headerImage, imageList, title, Content, url, onClick }) {
+export default function MiniCard({ headerImage, imageList, title, Content,Blurb, url, onClick }) {
 
 	const [open, setOpen] = useState(false);
 	const closeModal = () => setOpen(false);
@@ -19,13 +19,16 @@ export default function MiniCard({ headerImage, imageList, title, Content, url, 
 		
 	return (
 		<div
-			className=" w-[200px] border-black align-middle transform transition duration-500 hover:scale-110  text-center rounded-lg bg-black m-[20px]"
+			className=" w-[300px] flex flex-col align-middle transform transition duration-500 hover:scale-110  text-center rounded-lg border-[2px] border-black m-[20px]"
 			onClick={openModal}
 		>
 
-			<Image alt={title} src={headerImage} width={200} height={200} />
-			<div className="text-white">
+			<div className="border-b border-black text-[18px] font-bold text-black ">
 				{title}
+			</div>
+			<Image alt={title} src={headerImage} width={400} height={200} />
+			<div className="">
+				{Blurb}
 			</div>
 
 
@@ -49,7 +52,7 @@ export default function MiniCard({ headerImage, imageList, title, Content, url, 
 						<div className="ml-auto mr-auto my-10 w-[60px] bg-blue-900 rounded text-center">
 							<Link href = {url} target = "_blank" >
 								<span className = "text-white" >
-							visit
+							Visit Site
 									</span>
 								</Link>
 						</div>

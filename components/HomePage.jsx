@@ -84,9 +84,14 @@ function HomePage() {
 							<span>Portfolio</span>
 						</h1>
 					</div>
-					<MiniPortfolio />
+					<div
+						className="nine columns main-col pr-[0px]"
+						style={{ borderLeft: "3px solid #11abb0" }}
+					>
+						<MiniPortfolio />
 					</div>
-				</section>
+				</div>
+			</section>
 
 			<section id="resume">
 				<div className="row education">
@@ -192,9 +197,9 @@ function HomePage() {
 									<ul className={styles.RendiaAchievements}>
 										<li>
 											Developed sophisticated website for hosting and delivering
-											newsletter content 
+											newsletter content
 										</li>
-											<ul className={styles.nestedList}>
+										<ul className={styles.nestedList}>
 											<li>Followed Agile development practices</li>
 											<li>Implemented customized analytics tracking and GTM configuration</li>
 										</ul>
@@ -279,27 +284,27 @@ function HomePage() {
 												Developed a proof of concept HLS video streaming
 												authorization protocol
 											</li>
-												<ul className={styles.nestedList}>
-													<li>
-														Studied current authorization protocol involving mp4
-														video files
-													</li>
-													<li>
-														Implemented three seperate solutions using different
-														web services (
-														<a href="https://bunny.net/">bunny.net</a>,{" "}
-														<a href="https://www.cloudflare.com/">Cloudflare</a>
-														, <a href="https://www.backblaze.com/">Backblaze</a>
-														)
-													</li>
-													<li>
-														Created and deployed python server for load testing
-														the different solutions using{" "}
-														<a href="https://jmeter.apache.org/">
-															Apache Jmeter
-														</a>
-													</li>
-												</ul>
+											<ul className={styles.nestedList}>
+												<li>
+													Studied current authorization protocol involving mp4
+													video files
+												</li>
+												<li>
+													Implemented three seperate solutions using different
+													web services (
+													<a href="https://bunny.net/">bunny.net</a>,{" "}
+													<a href="https://www.cloudflare.com/">Cloudflare</a>
+													, <a href="https://www.backblaze.com/">Backblaze</a>
+													)
+												</li>
+												<li>
+													Created and deployed python server for load testing
+													the different solutions using{" "}
+													<a href="https://jmeter.apache.org/">
+														Apache Jmeter
+													</a>
+												</li>
+											</ul>
 											<li>
 												Presented a lunch and learn talk about the rubix cube
 												with <a href="/static/cube.pdf">homemade materials</a>

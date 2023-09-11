@@ -97,26 +97,30 @@ export default function MiniPortfolio() {
 					headerImage = {bulletpitch}
 					title = "Bulletpitch" 
 					Content={bpContent} 
-					url = "https://www.bulletpitch.xyz?utm_source=alexis"
+					Blurb = "Webite to display Bulletpitch Newsletters"
+					url = "https://www.bulletpitch.com?utm_source=alexis"
 				/>
 				<MiniCard 
 					imageList = {[shhmint,shhmint2]} 
 					headerImage = {shhmint}
 					title = "shhmint" 
 					Content = {shhmintContent}
-					url = "https://www.shhmint.com/" 
+					Blurb = "3rd place at CrossMint Hackathon"
+					url = "https://github.com/shhmint" 
 				/>
 				<MiniCard 
 					imageList = {[middHacks]} 
 					headerImage = {middHacks}
 					title = "MiddXChange" 
 					Content = {middXContent} 
+					Blurb = "1st place at Middlebury Hackathon"
 					url = "https://github.com/AlexisBallo2/Hackathon2022" 
 				/> 
 				<MiniCard 
 					imageList={[semantle]} 
 					headerImage = {semantle}
 					title = "BERT deep learning" 
+					Blurb = "ML word embedding"
 					Content = {dlContent} 
 					url = "https://github.com/AlexisBallo2/semantleClone" 
 				/> 
@@ -124,6 +128,7 @@ export default function MiniPortfolio() {
 					imageList={[textileMapping2, textileMapping]} 
 					headerImage = {textileMapping2}
 					title="Textile Mapping" 
+					Blurb = "Mapping the Dutch textile trade"
 					Content = {textileContent}
 					url = "https://alexisballo.shinyapps.io/finalProject/" 
 				/>
