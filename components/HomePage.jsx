@@ -15,7 +15,7 @@ import Image from "next/image";
 function HomePage() {
 	return (
 		<div>
-			<header id="home">
+			<header id="home" className = "h-[100vh]">
 				<div className="row banner">
 					<div className="banner-text">
 						<h1 className="responsive-headline">Alexis Ballo</h1>

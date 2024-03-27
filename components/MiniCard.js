@@ -11,7 +11,7 @@ export default function MiniCard({ headerImage, imageList, title, Content,Blurb,
 
 	const images = imageList.map((image, i) => {
 		return (
-			<div key = {i} className="border-[4px] border-black rounded my-[10px]" >
+			<div key = {i} className="border-[4px] w-[250px] border-black rounded " >
 				<Image src={image} alt={title} width={600} height={200} />
 			</div>
 		)
@@ -36,22 +36,24 @@ export default function MiniCard({ headerImage, imageList, title, Content,Blurb,
 
 			<Popup open={open} closeOnDocumentClick onClose={closeModal}>
 				<div className="fixed top-0 left-0 flex items-center justify-center w-[100vw] h-[100vh]">
-					<div className="w-[90vw] max-w-[700px] h-[70vh] bg-white rounded-lg shadow-[0px_35px_60px_-15px_rgba(0,0,0,0.3)] overflow-scroll ">
+					<div className="w-[90vw] max-w-[700px] h-[70vh] bg-white rounded-lg shadow-[rgba(0,0,0,0.56)_0px_22px_70px_4px] overflow-scroll p-5 ">
 						<a className="relative cursor-pointer left-5 top-5 text-[20px]" onClick={closeModal}>
 							&times;
 						</a>
 						<h2 className="text-center"> {title} </h2>
 						<div className="flex flex-row flex-wrap justify-evenly px-4 mt-10">
-							<div className="flex flex-col items-center  w-[350px] h-full py-[10px]">
+							<div className="flex flex-col items-center w-[80%] h-full py-[10px]">
 								<Content />
 							</div>
 							<div className="flex flex-col items-center justify-evenly w-[250px] h-full py-[10px]">
-								{images}
 							</div>
 						</div>
-						<div className="ml-auto mr-auto my-10 w-[60px] bg-blue-900 rounded text-center">
+						<div className = "flex flex-row flex-wrap justify-center gap-3 ">
+								{images}
+						</div>
+						<div className="ml-auto mr-auto my-10 w-[80px] bg-blue-900 rounded text-center">
 							<Link href = {url} target = "_blank" >
-								<span className = "text-white" >
+								<span className = "text-white px-1" >
 							Visit Site
 									</span>
 								</Link>

@@ -19,7 +19,7 @@ export default function MiniPortfolio() {
 				</p>
 
 				<p className="indent-10 m-0">
-				At bulletpitch I have learned how to communicate technical knowledge, work in teams to develop new products, and maintain technical deployements.  
+				At Bulletpitch I have learned how to communicate technical knowledge, work in teams to develop new products, and maintain technical deployements.  
 				</p>	
 				<p className="indent-10 m-0">
 				Used technologies include Next.js, Wordpress, linux, python, html/css/js, google search console, google analytics.  
