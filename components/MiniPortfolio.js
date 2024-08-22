@@ -4,7 +4,6 @@ import shhmint2 from "../public/images/portfolio/shhmint2.png"
 import middHacks from "../public/images/portfolio/middHacks.png"
 import bulletpitch from "../public/images/portfolio/bulletpitch.png"
 import bulletpitch2 from "../public/images/portfolio/bulletpitch2.png"
-import bulletpitch3 from "../public/images/portfolio/bulletpitch3.png"
 import textileMapping from "../public/images/portfolio/textileMappingImg.png"
 import textileMapping2 from "../public/images/portfolio/textileMappingImg2.png"
 import semantle from "../public/images/portfolio/semantle.png"
@@ -14,16 +13,24 @@ export default function MiniPortfolio() {
 
 		return (
 			<div>
-				<p className="indent-10 m-0">
-				I am currently working as the head of technology at bulletpitch. bulletpitch is a newsletter about emerging startups that are distrupting industries and shaping the next generation.
+				<p className="">
+				Bulletpitch is venture media company that brings disruptive startups to venture capitalists, angle investors, and students.
 				</p>
 
-				<p className="indent-10 m-0">
-				At Bulletpitch I have learned how to communicate technical knowledge, work in teams to develop new products, and maintain technical deployements.  
-				</p>	
-				<p className="indent-10 m-0">
-				Used technologies include Next.js, Wordpress, linux, python, html/css/js, google search console, google analytics.  
-				</p>	
+				<div className="">
+				At Bulletpitch I have developed, hosted and deployed the Bulletpitch website. Features of the website include:
+				</div>	
+				<ul className=" ml-6 list-disc ">
+					<li className="">
+						CI/CD with data pulled from external CMS
+					</li>
+					<li className="">
+						Information sorting using GraphQL
+					</li>
+					<li className="">
+						SSG/SSR for faster page loads
+					</li>
+				</ul>	
 			</div>
 		)
 	}
@@ -93,8 +100,9 @@ export default function MiniPortfolio() {
 		<>
 			<div className="flex flex-row flex-wrap justify-center">
 				<MiniCard 
-					imageList={[bulletpitch,bulletpitch2,bulletpitch3]} 
-					headerImage = {bulletpitch}
+					// imageList={[bulletpitch,bulletpitch2,bulletpitch3]} 
+					imageList={[bulletpitch2, bulletpitch]} 
+					headerImage = {bulletpitch2}
 					title = "Bulletpitch" 
 					Content={bpContent} 
 					Blurb = "Webite to display Bulletpitch Newsletters"
